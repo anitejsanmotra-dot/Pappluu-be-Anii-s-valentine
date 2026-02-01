@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fce4ec; /* Light pink background */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cat-img { width: 150px; margin-bottom: 20px; }
+
+h1 { color: #d81b60; font-size: 2rem; }
+
+.buttons { margin-top: 30px; position: relative; }
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.yes-btn { background-color: #e91e63; color: white; margin-right: 10px; }
+
+.no-btn {
+    background-color: #bdbdbd;
+    color: white;
+    position: absolute; /* Allows the button to jump around */
+}
+
+.hidden { display: none; }
+
+#small-text { font-size: 0.8rem; color: #888; margin-top: 15px; }
