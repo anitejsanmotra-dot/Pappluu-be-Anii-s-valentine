@@ -30,7 +30,8 @@ button {
 .no-btn {
     background-color: #bdbdbd;
     color: white;
-    position: absolute; /* Allows the button to jump around */
+    position: absolute; /* This MUST be here for it to move */
+    transition: 0.2s;
 }
 
 .hidden { display: none; }
